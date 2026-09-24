@@ -1352,7 +1352,7 @@ config UID16
 
 config MULTIUSER
 	bool "Multiple users, groups and capabilities support" if EXPERT
-	default y
+	default n
 	help
 	  This option enables support for non-root users, groups and
 	  capabilities.
